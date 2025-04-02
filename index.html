@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Reszponzív Képgaléria</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="gallery">
+            <div class="gallery-image">
+                <img src="./src/pic1.jpg" alt="Kép 1" />
+            </div>
+            <div class="gallery-image">
+                <img src="./src/pic2.jpg" alt="Kép 2" />
+            </div>
+            <div class="gallery-image">
+                <img src="./src/pic3.jpg" alt="Kép 3" />
+            </div>
+        </div>
+        <div id="modal" class="hidden">
+            <span id="close-btn">&times;</span>
+            <span id="prev-btn">&#9664;</span>
+            <span id="next-btn">&#9654;</span>
+            <img id="modal-image" src="" alt="Nagyított kép" />
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
